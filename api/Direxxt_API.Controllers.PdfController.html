@@ -1,0 +1,429 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PdfController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PdfController
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Direxxt_API.Controllers.PdfController">
+  
+  
+  <h1 id="Direxxt_API_Controllers_PdfController" data-uid="Direxxt_API.Controllers.PdfController" class="text-break">Class PdfController
+  </h1>
+  <div class="markdown level0 summary"><p><br></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Microsoft.AspNetCore.Mvc.ControllerBase</span></div>
+    <div class="level2"><span class="xref">PdfController</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Direxxt_API.Controllers.html">Direxxt_API.Controllers</a></h6>
+  <h6><strong>Assembly</strong>: Direxxt_API.dll</h6>
+  <h5 id="Direxxt_API_Controllers_PdfController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ApiController]
+[Route(&quot;api/[controller]&quot;)]
+[Authorize(Policy = &quot;OnlyFirebaseJwtScheme&quot;)]
+[ServiceFilter(typeof(ValidationFilterAttribute))]
+public class PdfController : ControllerBase</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeCavePro/direxxt-server/new/master/apiSpec/new?filename=Direxxt_API_Controllers_PdfController_CreatePDF_Direxxt_Shared_Models_PdfInputData_.md&amp;value=---%0Auid%3A%20Direxxt_API.Controllers.PdfController.CreatePDF(Direxxt_Shared.Models.PdfInputData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeCavePro/direxxt-server/blob/master/Direxxt_API/Controllers/PdfController.cs/#L84">View Source</a>
+  </span>
+  <a id="Direxxt_API_Controllers_PdfController_CreatePDF_" data-uid="Direxxt_API.Controllers.PdfController.CreatePDF*"></a>
+  <h4 id="Direxxt_API_Controllers_PdfController_CreatePDF_Direxxt_Shared_Models_PdfInputData_" data-uid="Direxxt_API.Controllers.PdfController.CreatePDF(Direxxt_Shared.Models.PdfInputData)">CreatePDF(PdfInputData)</h4>
+  <div class="markdown level1 summary"><p>Получить бланк заказа.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost(&quot;blank&quot;)]
+public IActionResult CreatePDF(PdfInputData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Direxxt_Shared.Models.PdfInputData.html">PdfInputData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Модель.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span></td>
+        <td><p>HttpResponse statuscode 200(Success), <br>500(Custom server error message), <br>401(unauthorised)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Direxxt_API_Controllers_PdfController_CreatePDF_Direxxt_Shared_Models_PdfInputData__examples">Examples</h5>
+  <p>Пример body HTTP POST запроса <a class="xref" href="Direxxt_Shared.Models.PdfInputData.html">PdfInputData</a> в JSON для создания заказа:</p>
+<pre><code>{
+    &quot;pickupData&quot;: {
+        &quot;dateFrom&quot;: &quot;2023-02-03 08:00:00.000&quot;,
+        &quot;dateTo&quot;: &quot;2023-02-03 08:00:00.000&quot;,
+        &quot;customerName&quot;: &quot;ООО «Часовая мануфактура Хвилина»&quot;,
+        &quot;phoneNumber&quot;: &quot;+375293330484&quot;,
+        &quot;country&quot;: &quot;г. Минск пр-кт. Машерова 1&quot;,
+        &quot;city&quot;: &quot;&quot;,
+        &quot;address&quot;: &quot;&quot;,
+        &quot;addressLine&quot;: &quot;кв/оф 1&quot;,
+        &quot;house&quot;: &quot;&quot;,
+        &quot;insideHouse&quot;: &quot;кв/оф 1&quot;
+    },
+    &quot;dropoffData&quot;: [
+        {
+            &quot;dateFrom&quot;: &quot;2023-02-04 18:00:00.000&quot;,
+            &quot;dateTo&quot;: &quot;2023-02-04 22:00:00.000&quot;,
+            &quot;costForPoint&quot;: &quot;8&quot;,
+            &quot;paymentOnTheSpot&quot;: false,
+            &quot;customerName&quot;: &quot;Тестовый тест &quot;,
+            &quot;phoneNumber&quot;: &quot;+375293330484&quot;,
+            &quot;country&quot;: &quot;г. Минск ул. Мирошниченко 1&quot;,
+            &quot;city&quot;: &quot;&quot;,
+            &quot;address&quot;: &quot;&quot;,
+            &quot;addressLine&quot;: &quot;кв/оф 18&quot;,
+            &quot;house&quot;: &quot;&quot;,
+            &quot;insideHouse&quot;: &quot;кв/оф 18&quot;,
+            &quot;cashOnDelivery&quot;: false,
+            &quot;cashOnDeliveryValue&quot;: &quot;0.00&quot;,
+            &quot;deliveryDate&quot;: &quot;4 / 2 / 2023&quot;,
+            &quot;weight&quot;: &quot;0.30&quot;,
+            &quot;volume&quot;: &quot;0.000001&quot;,
+            &quot;height&quot;: &quot;1&quot;,
+            &quot;length&quot;: &quot;1&quot;,
+            &quot;width&quot;: &quot;1&quot;
+        }
+    ]
+}</code></pre>
+
+<p>В ответ будет собран zip архив (byte[] &quot;application/zip&quot;) названный &quot;MyFile.zip&quot;</p>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeCavePro/direxxt-server/new/master/apiSpec/new?filename=Direxxt_API_Controllers_PdfController_CreatePDF_System_String_.md&amp;value=---%0Auid%3A%20Direxxt_API.Controllers.PdfController.CreatePDF(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeCavePro/direxxt-server/blob/master/Direxxt_API/Controllers/PdfController.cs/#L104">View Source</a>
+  </span>
+  <a id="Direxxt_API_Controllers_PdfController_CreatePDF_" data-uid="Direxxt_API.Controllers.PdfController.CreatePDF*"></a>
+  <h4 id="Direxxt_API_Controllers_PdfController_CreatePDF_System_String_" data-uid="Direxxt_API.Controllers.PdfController.CreatePDF(System.String)">CreatePDF(String)</h4>
+  <div class="markdown level1 summary"><p>Получить бланк заказа.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet(&quot;blank/{id}&quot;)]
+public async Task&lt;IActionResult&gt; CreatePDF(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td><p>HttpResponse statuscode 200(Success), <br>500(Custom server error message), <br>401(unauthorised)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Direxxt_API_Controllers_PdfController_CreatePDF_System_String__examples">Examples</h5>
+  <p>Пример запроса Request url:</p>
+<pre><code>http://localhost:5289/api/Pdf/blank/1        </code></pre>
+<p>В ответ будет собран zip архив (byte[] &quot;application/zip&quot;), если количество точке доставки в заявке больше 1, либо pdf файл (byte[] &quot;application/pdf&quot;)&quot;</p>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeCavePro/direxxt-server/new/master/apiSpec/new?filename=Direxxt_API_Controllers_PdfController_CreatePostalPDF_Direxxt_Shared_Models_PdfInputData_.md&amp;value=---%0Auid%3A%20Direxxt_API.Controllers.PdfController.CreatePostalPDF(Direxxt_Shared.Models.PdfInputData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeCavePro/direxxt-server/blob/master/Direxxt_API/Controllers/PdfController.cs/#L158">View Source</a>
+  </span>
+  <a id="Direxxt_API_Controllers_PdfController_CreatePostalPDF_" data-uid="Direxxt_API.Controllers.PdfController.CreatePostalPDF*"></a>
+  <h4 id="Direxxt_API_Controllers_PdfController_CreatePostalPDF_Direxxt_Shared_Models_PdfInputData_" data-uid="Direxxt_API.Controllers.PdfController.CreatePostalPDF(Direxxt_Shared.Models.PdfInputData)">CreatePostalPDF(PdfInputData)</h4>
+  <div class="markdown level1 summary"><p>Получить почтовую квитанцию.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost(&quot;postal&quot;)]
+public IActionResult CreatePostalPDF(PdfInputData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Direxxt_Shared.Models.PdfInputData.html">PdfInputData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Модель.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span></td>
+        <td><p>HttpResponse statuscode 200(Success), <br>500(Custom server error message), <br>401(unauthorised)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Direxxt_API_Controllers_PdfController_CreatePostalPDF_Direxxt_Shared_Models_PdfInputData__examples">Examples</h5>
+  <p>Пример body HTTP POST запроса <a class="xref" href="Direxxt_Shared.Models.PdfInputData.html">PdfInputData</a> в JSON для создания заказа:</p>
+<pre><code>{
+    &quot;pickupData&quot;: {
+        &quot;dateFrom&quot;: &quot;2023-02-03 08:00:00.000&quot;,
+        &quot;dateTo&quot;: &quot;2023-02-03 08:00:00.000&quot;,
+        &quot;customerName&quot;: &quot;ООО «Часовая мануфактура Хвилина»&quot;,
+        &quot;phoneNumber&quot;: &quot;+375293330484&quot;,
+        &quot;address&quot;: &quot;&quot;,
+        &quot;addressLine&quot;: &quot;кв/оф 1&quot;,
+    },
+    &quot;dropoffData&quot;: [
+        {
+            &quot;dateFrom&quot;: &quot;2023-02-04 18:00:00.000&quot;,
+            &quot;dateTo&quot;: &quot;2023-02-04 22:00:00.000&quot;,
+            &quot;costForPoint&quot;: &quot;8&quot;,
+            &quot;paymentOnTheSpot&quot;: false,
+            &quot;customerName&quot;: &quot;Тестовый тест &quot;,
+            &quot;phoneNumber&quot;: &quot;+375293330484&quot;,
+            &quot;address&quot;: &quot;&quot;,
+            &quot;addressLine&quot;: &quot;кв/оф 18&quot;,
+            &quot;cashOnDelivery&quot;: false,
+            &quot;cashOnDeliveryValue&quot;: &quot;0.00&quot;,
+            &quot;deliveryDate&quot;: &quot;4 / 2 / 2023&quot;,
+            &quot;weight&quot;: &quot;0.30&quot;,
+            &quot;volume&quot;: &quot;0.000001&quot;,
+            &quot;height&quot;: &quot;1&quot;,
+            &quot;length&quot;: &quot;1&quot;,
+            &quot;width&quot;: &quot;1&quot;
+        }
+    ]
+}</code></pre>
+
+<p>В ответ будет собран zip архив (byte[] &quot;application/zip&quot;) названный &quot;MyFile.zip&quot;</p>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeCavePro/direxxt-server/new/master/apiSpec/new?filename=Direxxt_API_Controllers_PdfController_CreatePostalPDF_System_String_.md&amp;value=---%0Auid%3A%20Direxxt_API.Controllers.PdfController.CreatePostalPDF(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeCavePro/direxxt-server/blob/master/Direxxt_API/Controllers/PdfController.cs/#L178">View Source</a>
+  </span>
+  <a id="Direxxt_API_Controllers_PdfController_CreatePostalPDF_" data-uid="Direxxt_API.Controllers.PdfController.CreatePostalPDF*"></a>
+  <h4 id="Direxxt_API_Controllers_PdfController_CreatePostalPDF_System_String_" data-uid="Direxxt_API.Controllers.PdfController.CreatePostalPDF(System.String)">CreatePostalPDF(String)</h4>
+  <div class="markdown level1 summary"><p>Получить бланк заказа.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet(&quot;postal/{id}&quot;)]
+public async Task&lt;IActionResult&gt; CreatePostalPDF(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td><p>HttpResponse statuscode 200(Success), <br>500(Custom server error message), <br>401(unauthorised)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Direxxt_API_Controllers_PdfController_CreatePostalPDF_System_String__examples">Examples</h5>
+  <p>Пример запроса Request url:</p>
+<pre><code>http://localhost:5289/api/Pdf/postal/1        </code></pre>
+<p>В ответ будет собран zip архив (byte[] &quot;application/zip&quot;), если количество точке доставки в заявке больше 1, либо pdf файл (byte[] &quot;application/pdf&quot;)&quot;</p>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/CodeCavePro/direxxt-server/new/master/apiSpec/new?filename=Direxxt_API_Controllers_PdfController.md&amp;value=---%0Auid%3A%20Direxxt_API.Controllers.PdfController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/CodeCavePro/direxxt-server/blob/master/Direxxt_API/Controllers/PdfController.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

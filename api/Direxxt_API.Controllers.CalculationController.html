@@ -1,0 +1,487 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CalculationController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CalculationController
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Direxxt_API.Controllers.CalculationController">
+  
+  
+  <h1 id="Direxxt_API_Controllers_CalculationController" data-uid="Direxxt_API.Controllers.CalculationController" class="text-break">Class CalculationController
+  </h1>
+  <div class="markdown level0 summary"><p><br></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Microsoft.AspNetCore.Mvc.ControllerBase</span></div>
+    <div class="level2"><span class="xref">CalculationController</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Direxxt_API.Controllers.html">Direxxt_API.Controllers</a></h6>
+  <h6><strong>Assembly</strong>: Direxxt_API.dll</h6>
+  <h5 id="Direxxt_API_Controllers_CalculationController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ApiController]
+[Route(&quot;api/[controller]&quot;)]
+[Authorize(Policy = &quot;OnlyFirebaseJwtScheme&quot;)]
+[ServiceFilter(typeof(ValidationFilterAttribute))]
+public class CalculationController : ControllerBase</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeCavePro/direxxt-server/new/master/apiSpec/new?filename=Direxxt_API_Controllers_CalculationController_Post_Direxxt_Shared_Models_Delivery_CalculateLatLngDeliveryDto_.md&amp;value=---%0Auid%3A%20Direxxt_API.Controllers.CalculationController.Post(Direxxt_Shared.Models.Delivery.CalculateLatLngDeliveryDto)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeCavePro/direxxt-server/blob/master/Direxxt_API/Controllers/CalculationController.cs/#L166">View Source</a>
+  </span>
+  <a id="Direxxt_API_Controllers_CalculationController_Post_" data-uid="Direxxt_API.Controllers.CalculationController.Post*"></a>
+  <h4 id="Direxxt_API_Controllers_CalculationController_Post_Direxxt_Shared_Models_Delivery_CalculateLatLngDeliveryDto_" data-uid="Direxxt_API.Controllers.CalculationController.Post(Direxxt_Shared.Models.Delivery.CalculateLatLngDeliveryDto)">Post(CalculateLatLngDeliveryDto)</h4>
+  <div class="markdown level1 summary"><p>Ðàññ÷èòàòü ñòîèìîñòü óñëóãè èñïîëüçóÿ êîîðäèíàòû.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost(&quot;priceLatLng&quot;)]
+public async Task&lt;IActionResult&gt; Post(CalculateLatLngDeliveryDto deliveryDto)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Direxxt_Shared.Models.Delivery.CalculateLatLngDeliveryDto.html">CalculateLatLngDeliveryDto</a></td>
+        <td><span class="parametername">deliveryDto</span></td>
+        <td><p>Ìîäåëü.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td><p>HttpResponse statuscode 200(Success), <br>500(Custom server error message), <br>401(unauthorised)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Direxxt_API_Controllers_CalculationController_Post_Direxxt_Shared_Models_Delivery_CalculateLatLngDeliveryDto__examples">Examples</h5>
+  <p>Ïðèìåð çàïðîñà:</p>
+<pre><code>{
+          &quot;route&quot;: {
+              &quot;startPoint&quot;: {
+                  &quot;lat&quot;: 53.90143,
+                  &quot;lng&quot;: 27.555426
+              },
+              &quot;endPoints&quot;: [
+                  {
+                      &quot;lat&quot;: 53.928376,
+                      &quot;lng&quot;: 27.627629
+                  },
+                  {
+                      &quot;lat&quot;: 53.900187,
+                      &quot;lng&quot;: 27.555263
+                  }
+              ]
+          },
+          &quot;items&quot;: [
+              {
+                  &quot;weight&quot;: 2,
+                  &quot;length&quot;: 60,
+                  &quot;width&quot;: 30,
+                  &quot;height&quot;: 15,
+                  &quot;dateTime&quot;: &quot;2023-02-28T12:48:15.749Z&quot;
+              },
+              {
+                  &quot;weight&quot;: 2,
+                  &quot;length&quot;: 60,
+                  &quot;width&quot;: 30,
+                  &quot;height&quot;: 15,
+                  &quot;dateTime&quot;: &quot;2023-02-28T14:48:15.749Z&quot;
+              }
+          ]
+      }</code></pre>
+
+<p>Ïðèìåð îòâåòà:</p>
+<pre><code>        {
+    &quot;scenarios&quot;: &quot;none&quot;,
+    &quot;isTruck&quot;: false,
+    &quot;deliveryCost&quot;: 417.42,
+    &quot;totalDistance&quot;: 432.00699999999995,
+    &quot;totalDuration&quot;: 12.771666666666667,
+    &quot;segments&quot;: [
+        {
+            &quot;cost&quot;: 10.9,
+            &quot;distance&quot;: 8.07,
+            &quot;duration&quot;: 0.25,
+            &quot;truckDetails&quot;: {
+                &quot;pickUpCost&quot;: 0,
+                &quot;costInsideMKAD1&quot;: 0,
+                &quot;costOutsideMKAD1&quot;: 0,
+                &quot;distanceInsideMKAD1&quot;: 0,
+                &quot;distanceOutsideMKAD1&quot;: 0,
+                &quot;durationInsideMKAD1&quot;: 0,
+                &quot;durationOutsideMKAD1&quot;: 0
+
+            },
+            &quot;overviewPolylines&quot;: [
+                &quot;_t~gI}zdgDWs@Ui@CGCCA?A?A?E@G?A?AACE]{@&quot;,
+                &quot;ow~gIi`egDq@bA&quot;,
+                &quot;ay~gIe~dgDq@aB&quot;,
+                &quot;sz~gIgaegDtDqFNWZe@xD{F&quot;,
+                &quot;wm~gIsregDa@mAyCyHKWqEkLwCmHOa@_A_C{@oBIUMq@sEaLUo@yDoJQa@{@mBSg@sBcFeAiCO[IWGQEKESCQCIAMAK?KG{@&quot;,
+                &quot;o|_hIsshgD?Q?IAGAKCKEOIQKYM[M[AECECEGGKGG?E?_@KUEEAEACAGCCCEEGIsAyB}AcCaBgC_@k@iDkDgAiAIGeAgAu@{@cGiGi@i@CGqDmG]s@c@y@q@sAuDsGm@qAg@aBcDkKkCuI}AeFoDuLqCiJ{@wCs@eC}@yCQq@Ou@CQWaB_CiPGaAGeBIcCKuCE{@EoAYaIAGg@{LWiFEe@EWKq@[mBYeBQaAuAoIqA{HEQUyAUmAEU_AsFqCmPUwAUqAgGa^}@wFE[AE[}AgBmJMs@m@gD{BkMgCkNi@qCOy@&quot;,
+                &quot;_fdhIwqtgDAg@I_AIw@MkA?GeAiK&quot;,
+                &quot;iidhIueugDK{@sCbA&quot;,
+                &quot;indhImeugDQII?MBMBIDI@E?KCIEIMGQEUAO?Q@WDWJ[FQFMDIBGDCDEFCBAB?H?D@DBHHHLDHBJDNDLDL@DDFFJ&quot;,
+                &quot;kmdhI}hugDzA|HtBpL~BzL&quot;,
+                &quot;ybdhIqctgD[V&quot;,
+                &quot;ucdhIybtgDEQEICCACA?C?A?ABAF?F?B?DBJBNBJBJBF@B@@@@@?B?p@`EdBrJbC~M&quot;
+            ]
+},
+        {
+    &quot;cost&quot;: 10.9,
+            &quot;distance&quot;: 6.824,
+            &quot;duration&quot;: 0.217,
+            &quot;truckDetails&quot;: {
+        &quot;pickUpCost&quot;: 0,
+                &quot;costInsideMKAD1&quot;: 0,
+                &quot;costOutsideMKAD1&quot;: 0,
+                &quot;distanceInsideMKAD1&quot;: 0,
+                &quot;distanceOutsideMKAD1&quot;: 0,
+                &quot;durationInsideMKAD1&quot;: 0,
+                &quot;durationOutsideMKAD1&quot;: 0
+
+            },
+            &quot;overviewPolylines&quot;: [
+
+                &quot;wzchIe`sgDcC_NeBsJq@aE&quot;,
+                &quot;scdhI{`tgD@C?A@C?E?C?KAMCOZW&quot;,
+                &quot;ybdhIqctgDrFtZrBfLX~Ax@vExAnIjAdHnBdLTpArBtLvAvIZfBNv@Nz@T|Ar@~Dz@bFn@~Dl@lDV~ALv@Jn@BN@P@PDj@D|@NhC?LHfBt@lSh@rNHvA&quot;,
+                &quot;{ubhIsxmgDlC`RBPJf@Nv@Pr@|@~CnBxG`AvCpAtEbG`TpAbE`GvR&quot;,
+                &quot;asahIexjgDv@~AdFhJ`GzJf@h@pDlDhE|EvAtAfDpD\\d@bBbCl@`Aj@|@FHh@x@h@x@FJFLDJ@HBH@J@NDX&quot;,
+                &quot;_b`hIiwhgDAJ@T@LBLTv@N^Pb@HJFHBBHDD@JADA@?BD@@@@@BDB@@B@DB@@B@BBBB@BDFLVh@fAfAjCrBbF~AzDN`@|@`CrAbDf@lAVl@?@xApDrA~CRd@\\^HTz@nB~@~BN`@vClHpEjLJVxCxH`@lAbCxFhB|Ej@tA\\|@&quot;,
+                &quot;_d~gIg_egDcD~Cg@d@&quot;
+            ]
+        }
+    ]
+}</code></pre>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeCavePro/direxxt-server/new/master/apiSpec/new?filename=Direxxt_API_Controllers_CalculationController_Post_Direxxt_Shared_Models_Delivery_CalculateStringDeliveryDto_.md&amp;value=---%0Auid%3A%20Direxxt_API.Controllers.CalculationController.Post(Direxxt_Shared.Models.Delivery.CalculateStringDeliveryDto)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeCavePro/direxxt-server/blob/master/Direxxt_API/Controllers/CalculationController.cs/#L277">View Source</a>
+  </span>
+  <a id="Direxxt_API_Controllers_CalculationController_Post_" data-uid="Direxxt_API.Controllers.CalculationController.Post*"></a>
+  <h4 id="Direxxt_API_Controllers_CalculationController_Post_Direxxt_Shared_Models_Delivery_CalculateStringDeliveryDto_" data-uid="Direxxt_API.Controllers.CalculationController.Post(Direxxt_Shared.Models.Delivery.CalculateStringDeliveryDto)">Post(CalculateStringDeliveryDto)</h4>
+  <div class="markdown level1 summary"><p>Ðàññ÷èòàòü ñòîèìîñòü óñëóãè èñïîëüçóÿ êîîðäèíàòû.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost(&quot;priceString&quot;)]
+public async Task&lt;IActionResult&gt; Post(CalculateStringDeliveryDto deliveryDto)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Direxxt_Shared.Models.Delivery.CalculateStringDeliveryDto.html">CalculateStringDeliveryDto</a></td>
+        <td><span class="parametername">deliveryDto</span></td>
+        <td><p>Ìîäåëü.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td><p>HttpResponse statuscode 200(Success), <br>500(Custom server error message), <br>401(unauthorised)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Direxxt_API_Controllers_CalculationController_Post_Direxxt_Shared_Models_Delivery_CalculateStringDeliveryDto__examples">Examples</h5>
+  <p>Ïðèìåð çàïðîñà:</p>
+<pre><code>{
+          &quot;route&quot;: {
+              &quot;startPoint&quot;: &quot;Mèíñê, Êàðëà Ìàðêñà ä. 31&quot;,
+              &quot;endPoints&quot;: [
+                  &quot;Mèíñê, Êàðëà Ìàðêñà ä. 12&quot;,
+                  &quot;Mèíñê, Êàðëà Ëèáêíåõáà ä. 1&quot;
+              ]
+          },
+          &quot;items&quot;: [
+              {
+                  &quot;weight&quot;: 2,
+                  &quot;length&quot;: 60,
+                  &quot;width&quot;: 30,
+                  &quot;height&quot;: 15,
+                  &quot;dateTime&quot;: &quot;2023-02-28T12:48:15.749Z&quot;
+              },
+              {
+                  &quot;weight&quot;: 2,
+                  &quot;length&quot;: 60,
+                  &quot;width&quot;: 30,
+                  &quot;height&quot;: 15,
+                  &quot;dateTime&quot;: &quot;2023-02-28T12:48:15.749Z&quot;
+              }
+          ]
+      }</code></pre>
+
+<p>Ïðèìåð îòâåòà:</p>
+<pre><code>        {
+    &quot;scenarios&quot;: &quot;none&quot;,
+    &quot;isTruck&quot;: false,
+    &quot;deliveryCost&quot;: 417.42,
+    &quot;totalDistance&quot;: 432.00699999999995,
+    &quot;totalDuration&quot;: 12.771666666666667,
+    &quot;segments&quot;: [
+        {
+            &quot;cost&quot;: 10.9,
+            &quot;distance&quot;: 8.07,
+            &quot;duration&quot;: 0.25,
+            &quot;truckDetails&quot;: {
+                &quot;pickUpCost&quot;: 0,
+                &quot;costInsideMKAD1&quot;: 0,
+                &quot;costOutsideMKAD1&quot;: 0,
+                &quot;distanceInsideMKAD1&quot;: 0,
+                &quot;distanceOutsideMKAD1&quot;: 0,
+                &quot;durationInsideMKAD1&quot;: 0,
+                &quot;durationOutsideMKAD1&quot;: 0
+
+            },
+            &quot;overviewPolylines&quot;: [
+                &quot;_t~gI}zdgDWs@Ui@CGCCA?A?A?E@G?A?AACE]{@&quot;,
+                &quot;ow~gIi`egDq@bA&quot;,
+                &quot;ay~gIe~dgDq@aB&quot;,
+                &quot;sz~gIgaegDtDqFNWZe@xD{F&quot;,
+                &quot;wm~gIsregDa@mAyCyHKWqEkLwCmHOa@_A_C{@oBIUMq@sEaLUo@yDoJQa@{@mBSg@sBcFeAiCO[IWGQEKESCQCIAMAK?KG{@&quot;,
+                &quot;o|_hIsshgD?Q?IAGAKCKEOIQKYM[M[AECECEGGKGG?E?_@KUEEAEACAGCCCEEGIsAyB}AcCaBgC_@k@iDkDgAiAIGeAgAu@{@cGiGi@i@CGqDmG]s@c@y@q@sAuDsGm@qAg@aBcDkKkCuI}AeFoDuLqCiJ{@wCs@eC}@yCQq@Ou@CQWaB_CiPGaAGeBIcCKuCE{@EoAYaIAGg@{LWiFEe@EWKq@[mBYeBQaAuAoIqA{HEQUyAUmAEU_AsFqCmPUwAUqAgGa^}@wFE[AE[}AgBmJMs@m@gD{BkMgCkNi@qCOy@&quot;,
+                &quot;_fdhIwqtgDAg@I_AIw@MkA?GeAiK&quot;,
+                &quot;iidhIueugDK{@sCbA&quot;,
+                &quot;indhImeugDQII?MBMBIDI@E?KCIEIMGQEUAO?Q@WDWJ[FQFMDIBGDCDEFCBAB?H?D@DBHHHLDHBJDNDLDL@DDFFJ&quot;,
+                &quot;kmdhI}hugDzA|HtBpL~BzL&quot;,
+                &quot;ybdhIqctgD[V&quot;,
+                &quot;ucdhIybtgDEQEICCACA?C?A?ABAF?F?B?DBJBNBJBJBF@B@@@@@?B?p@`EdBrJbC~M&quot;
+            ]
+},
+        {
+    &quot;cost&quot;: 10.9,
+            &quot;distance&quot;: 6.824,
+            &quot;duration&quot;: 0.217,
+            &quot;truckDetails&quot;: {
+        &quot;pickUpCost&quot;: 0,
+                &quot;costInsideMKAD1&quot;: 0,
+                &quot;costOutsideMKAD1&quot;: 0,
+                &quot;distanceInsideMKAD1&quot;: 0,
+                &quot;distanceOutsideMKAD1&quot;: 0,
+                &quot;durationInsideMKAD1&quot;: 0,
+                &quot;durationOutsideMKAD1&quot;: 0
+
+            },
+            &quot;overviewPolylines&quot;: [
+
+                &quot;wzchIe`sgDcC_NeBsJq@aE&quot;,
+                &quot;scdhI{`tgD@C?A@C?E?C?KAMCOZW&quot;,
+                &quot;ybdhIqctgDrFtZrBfLX~Ax@vExAnIjAdHnBdLTpArBtLvAvIZfBNv@Nz@T|Ar@~Dz@bFn@~Dl@lDV~ALv@Jn@BN@P@PDj@D|@NhC?LHfBt@lSh@rNHvA&quot;,
+                &quot;{ubhIsxmgDlC`RBPJf@Nv@Pr@|@~CnBxG`AvCpAtEbG`TpAbE`GvR&quot;,
+                &quot;asahIexjgDv@~AdFhJ`GzJf@h@pDlDhE|EvAtAfDpD\\d@bBbCl@`Aj@|@FHh@x@h@x@FJFLDJ@HBH@J@NDX&quot;,
+                &quot;_b`hIiwhgDAJ@T@LBLTv@N^Pb@HJFHBBHDD@JADA@?BD@@@@@BDB@@B@DB@@B@BBBB@BDFLVh@fAfAjCrBbF~AzDN`@|@`CrAbDf@lAVl@?@xApDrA~CRd@\\^HTz@nB~@~BN`@vClHpEjLJVxCxH`@lAbCxFhB|Ej@tA\\|@&quot;,
+                &quot;_d~gIg_egDcD~Cg@d@&quot;
+            ]
+        }
+    ]
+}</code></pre>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeCavePro/direxxt-server/new/master/apiSpec/new?filename=Direxxt_API_Controllers_CalculationController_Post_Direxxt_Shared_Models_Driver_DriverFeeRequest_.md&amp;value=---%0Auid%3A%20Direxxt_API.Controllers.CalculationController.Post(Direxxt_Shared.Models.Driver.DriverFeeRequest)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeCavePro/direxxt-server/blob/master/Direxxt_API/Controllers/CalculationController.cs/#L46">View Source</a>
+  </span>
+  <a id="Direxxt_API_Controllers_CalculationController_Post_" data-uid="Direxxt_API.Controllers.CalculationController.Post*"></a>
+  <h4 id="Direxxt_API_Controllers_CalculationController_Post_Direxxt_Shared_Models_Driver_DriverFeeRequest_" data-uid="Direxxt_API.Controllers.CalculationController.Post(Direxxt_Shared.Models.Driver.DriverFeeRequest)">Post(DriverFeeRequest)</h4>
+  <div class="markdown level1 summary"><p>Ðàññ÷èòàòü âîçíàãðàæäåíèå âîäèòåëÿ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost(&quot;driverFee&quot;)]
+public async Task&lt;IActionResult&gt; Post(DriverFeeRequest request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Direxxt_Shared.Models.Driver.DriverFeeRequest.html">DriverFeeRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>Ìîäåëü.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td><p><br></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/CodeCavePro/direxxt-server/new/master/apiSpec/new?filename=Direxxt_API_Controllers_CalculationController.md&amp;value=---%0Auid%3A%20Direxxt_API.Controllers.CalculationController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/CodeCavePro/direxxt-server/blob/master/Direxxt_API/Controllers/CalculationController.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

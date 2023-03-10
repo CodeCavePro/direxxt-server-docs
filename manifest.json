@@ -1,0 +1,1484 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_API.Controllers.AuthController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_API.Controllers.AuthController.html",
+          "hash": "V0bXpopuwxrQ/cfMeovr2Ch6vbrEFjqTDbBLSVYdvZ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_API.Controllers.CalculationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_API.Controllers.CalculationController.html",
+          "hash": "Hr/y+BCvGH0ZL5agGjTwKkRuG23e7N+TT9fX0y1Ia6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_API.Controllers.DeliveryController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_API.Controllers.DeliveryController.html",
+          "hash": "E7EHHFcWGWGtXlgu6HMKxCgqyGq0waltOfsRpb7NQTM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_API.Controllers.PdfController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_API.Controllers.PdfController.html",
+          "hash": "u/rUZQ/GVq8Jp389nL+YYEq162aH/8+/PRRz9PAYpFU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_API.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_API.Controllers.html",
+          "hash": "PPF3Aapfk2Gyf0Wd1c9n1ZMeYZmdgsSwO/j8GAqT9lc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.BelarusPolygon.BelarusPolygon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.BelarusPolygon.BelarusPolygon.html",
+          "hash": "xqc86gvBWJYBv67HgtZm5GEkm/iqfX1XhAllPk73AZM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.BelarusPolygon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.BelarusPolygon.html",
+          "hash": "+PgRlB5Yj/AhixEqGO9kZIlt2Hc12jehtnFX+jWqK24="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Data.Conditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Data.Conditions.html",
+          "hash": "S24j8BD/YypwlYd8oXot+GV7z4w0780mGmFsWBxzskc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Data.Roles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Data.Roles.html",
+          "hash": "0cTDAZ0tbdCVq3G4XHVRLIHgzQNfwlIlP/stPCCzSCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Data.Scenarios.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Data.Scenarios.html",
+          "hash": "DZkLRXm5GkiQ79JlysNZsHC828VFSP9e9mtSrQpaKOY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Data.html",
+          "hash": "j4ejbOJwEHG+DIVQdy6yowr3OVsixBOVwgApDI9XpCY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Enum.ContractType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Enum.ContractType.html",
+          "hash": "QEWnVDBkUAHVugeJoScM6wkNPi99QuxcyCpTW5Yn3bg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Enum.DeliveryArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Enum.DeliveryArea.html",
+          "hash": "ybfk37fU18v/miHPk3fGBjORBDyt711U3W1qblicCkQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Enum.DeliveryStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Enum.DeliveryStatus.html",
+          "hash": "fv86vVxdLd0WatWX2RPh+9Uh2FrKyBdFJp8ccKJxiSw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Enum.IntegrationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Enum.IntegrationType.html",
+          "hash": "ngrpOVmUveKRVDpLInFD8FyHVEuAD1BTWHjs1Dp1fwk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Enum.PaymentMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Enum.PaymentMethod.html",
+          "hash": "AGR8Xl8AQYPFJeprU/a1GxvTqJiF7YegWRaDwGz1KX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Enum.StartScenarios.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Enum.StartScenarios.html",
+          "hash": "nDPcRMacEBsLaiyWaW+Tc96bDXtsH8Lw68C0cloWNX8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Enum.WalkerRules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Enum.WalkerRules.html",
+          "hash": "H/cagsIQE8jchTrPEfFxsHdSgOHe/AySQxqj3WoHcyg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Enum.html",
+          "hash": "4wnrwaxfatICWW1iPReFYm2kEmcYadrSinpAAnNwNQ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Firebase.FireStoreCredentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Firebase.FireStoreCredentials.html",
+          "hash": "XD3KrcFxvpLFc94GhWGqppzfhviyZZkwlrtqOToJyIA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Firebase.FireStoreProject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Firebase.FireStoreProject.html",
+          "hash": "uTf2z6V9Lzf6poPEIwhm4EIlrnJ0wvjqzHr26vQhXqA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Firebase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Firebase.html",
+          "hash": "ixDbEAsyH3yLUrwFNrb/pUx57cm6f+lb6uIViteeyOg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.GoogleMap.GoogleDirectionsResponseDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.GoogleMap.GoogleDirectionsResponseDto.html",
+          "hash": "sWzi3krXTkcgr1nRI029rt9D0+oS61owqB3WXd6nki4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.GoogleMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.GoogleMap.html",
+          "hash": "LBaTaAbNBhamNoEacYHlxcf8/6ueRVZFnKoOc2iJoWk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.GoogleMapTypes.Route.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.GoogleMapTypes.Route.html",
+          "hash": "j18PAyxxSpr4unw2V2kBY4dZm93abBBe+zujdvBjvM8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.GoogleMapTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.GoogleMapTypes.html",
+          "hash": "g5Un0knaBMto/b/VgPel49sBhrN5wVZmruZ6m4Hsxqc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.GoogleTypes.GeoCoordinate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.GoogleTypes.GeoCoordinate.html",
+          "hash": "SUrT0VgBj82GXzP5xvy4pNLKqwyQZE0j3399G0m+7oY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.GoogleTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.GoogleTypes.html",
+          "hash": "K/TXtuuAVR7KB4UYk4NBba7n6XkJr2QRydMo2jxUK1E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.IntegrationObjects.IntegrationObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.IntegrationObjects.IntegrationObject.html",
+          "hash": "aaBL0LpXcRiDoCrNb8ZYQmUYF+hqu3pHWBVHTo8yOKA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.IntegrationObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.IntegrationObjects.html",
+          "hash": "emyaL83aKNPsk6tdCjpRTQXUGVhCCtAxRyZ0mPtChuw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Address.AddressDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Address.AddressDto.html",
+          "hash": "G1ewFluAGL0oKWqmRD5iTB3LMEpYqw2z74//m5+DCo8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Address.AddressSimpleDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Address.AddressSimpleDto.html",
+          "hash": "gdepY1tuwbnzotwEeD83tH4Tk/n9SbOv+091F8VhLOQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Address.DevidedAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Address.DevidedAddress.html",
+          "hash": "ukPi1DvnVRVE0/G/wx53ucPtR3nNXMUlTmbwqmzYgGQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Address.PatchAddressSimpleDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Address.PatchAddressSimpleDto.html",
+          "hash": "SP9o90qVIJmqOne3BeahrnZcFgBTbH5zzeS7NdhQafI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Address.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Address.html",
+          "hash": "3rWEO77TlrvZNNXU8SZfUqJACr5LMPCE6I0hzYPZ3nk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.AuthorizeDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.AuthorizeDto.html",
+          "hash": "JtOo84Td/P+JYDmG0Gp4VkhIT+aotEId/Imvi1P5c2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Contract.ContractDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Contract.ContractDto.html",
+          "hash": "0uxiqrUP8S7HIPV/Mud1fAJz42TFj0BVG3WUWrfKGLo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Contract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Contract.html",
+          "hash": "smOX/nhsuE6VCF7zlxRbmNix9PYY28EDb3Gxf59ALfk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.CalculateLatLngDeliveryDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.CalculateLatLngDeliveryDto.html",
+          "hash": "dZpSv0hMcUQ+EcbdT/nk7TOmca7ndmblCo4ewRr5mdg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.CalculateLatLngDeliveryFinalDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.CalculateLatLngDeliveryFinalDto.html",
+          "hash": "eSzwULHPhJ66OKwTMtKKhAWE+g080SGFXsNOZbmsgAg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.CalculateStringDeliveryDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.CalculateStringDeliveryDto.html",
+          "hash": "X0IQxKgF4MH5nLPY2zCXLw8+rv11fNHp2q4ca5FVJfI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.CreateDeliveryDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.CreateDeliveryDto.html",
+          "hash": "/v1KPvMzT04iRMc/wRPgp2PQgSwf3EBGAmYERWFlxwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.CreateDeliveryResultDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.CreateDeliveryResultDto.html",
+          "hash": "mqZ3bPy951zdXdDGLD3HvxzLeKjuukm/LMK+U+FURpo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.DeliveryCostDataDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.DeliveryCostDataDto.html",
+          "hash": "r9S5IbJGDEh8UR8omp1N3EjNPKdZvOR0CSJO62LUY3s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.DeliveryCostResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.DeliveryCostResult.html",
+          "hash": "E0XdniFjUGoUWtCj0BeGBfMcPuBDdU8Rou2+mWzXtHo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.DeliveryDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.DeliveryDto.html",
+          "hash": "VjCdF0N1DYYnUc86m35ckFfOn06WSV1mnmbfvNKyhMs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.DeliveryInfoResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.DeliveryInfoResponse.html",
+          "hash": "msfZkKP9noDU6PHtgkCvK20cVkrSF6zrrzdKbfC0XhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.DeliverySimpleDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.DeliverySimpleDto.html",
+          "hash": "yJ+R8A5uBnVwhee8txm65tTFJxtPf8lxM7jzRA5WmIU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.PatchDeliveryDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.PatchDeliveryDto.html",
+          "hash": "efRa5L0oWHa8Zr0LNMUBb9gs7+5ulP3jgq6D4wNxRtg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.PatchDeliveryResultDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.PatchDeliveryResultDto.html",
+          "hash": "SK7ViRinL5fssSx8eL+UX2KG+aKs9C/RGz4DetzxSyw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Delivery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Delivery.html",
+          "hash": "KKrol3YGY+x5KY+AituU6E4OkE+ZZX/Fhg47jroSjh8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Driver.DriverDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Driver.DriverDto.html",
+          "hash": "jkocsTFCj7pHcYJMCUXGQmavc1s01wHavTWJgv7Rux0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Driver.DriverFeeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Driver.DriverFeeRequest.html",
+          "hash": "R+6dvqV4KDP4xXaN2k41r5xN0L4pY7BFysUwGIyhBIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Driver.DriverFeeResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Driver.DriverFeeResponse.html",
+          "hash": "vjaULGAxTasKGn+aPwQsGtOqUyxgYMYufwwu7sF7C3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Driver.DriverPricesDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Driver.DriverPricesDto.html",
+          "hash": "mFy3CDQ1Th5W8PZE+65SZEdbs2AhugrXM7ym52jTW1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Driver.DriversDataDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Driver.DriversDataDto.html",
+          "hash": "IXYY62/kaN1KYD5Qj9E+HmBaSoJHm/1lo2CpoPFxJQM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Driver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Driver.html",
+          "hash": "6zF2x4Ai+qbp/CcbhgaoqMBbWupXRzkVOJ0cOYsZTYo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.DropoffData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.DropoffData.html",
+          "hash": "E/+SGUQ9h8QkQze4AAhjxWXOCnD6XwBSAtra3eB1hrI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.DroppoffStop.CreateDropoffStopSimpleDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.DroppoffStop.CreateDropoffStopSimpleDto.html",
+          "hash": "pNE+ZAhTXcIPPwBtM8yIHYsMerEQy7YM3Nv6lwk4CYE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.DroppoffStop.DropoffStopDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.DroppoffStop.DropoffStopDto.html",
+          "hash": "ZErsQ/nD8X9ktWx2e40a4JmLbqNEdVLQobiS7JSGKFQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.DroppoffStop.DropoffStopSimpleDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.DroppoffStop.DropoffStopSimpleDto.html",
+          "hash": "5RzmNf/xTigQyz9lefcI4F8Jt7AfIgFDVJwRBRjTXbU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.DroppoffStop.PatchDropoffStopSimpleDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.DroppoffStop.PatchDropoffStopSimpleDto.html",
+          "hash": "HMkyZdOBPSB+Im9I1XkHPObIxdCWuZpy+ch57F8qg14="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.DroppoffStop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.DroppoffStop.html",
+          "hash": "kLoKJAmFSQHmSKOXmG4LdqIiSAIu1NxUXUsnB7PNYxg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Error.BackendErrors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Error.BackendErrors.html",
+          "hash": "yVKQn92QSBmyJvLKmbV2YYt02/Z/+17qwwD61qKgH7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Error.html",
+          "hash": "NMcs3qEHYk6G9O5Bu0L4BA8Q6LT/PlduDTcenyZYg70="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Integration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Integration.html",
+          "hash": "MzoXUFFeo12e5GxmOfyCKlwXDsHvomOO8uiTVIYkqKE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.ItemParametersSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.ItemParametersSet.html",
+          "hash": "ZTLQ4TGgxG7dZzj1+7SrBhqA/DtuOcxOoD2dFhzp964="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Logic.FirstLogicModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Logic.FirstLogicModel.html",
+          "hash": "wLEoC4yBSvfJBkDZ+IrAdRwPpQMcsrctxTjoh/kx2wc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Logic.FirstLogicModelPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Logic.FirstLogicModelPlus.html",
+          "hash": "HMK4BxqSOZVdvSe2B+fCNSumFzWvZJHgQ7nkvWcwxy8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Logic.SecondLogicModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Logic.SecondLogicModel.html",
+          "hash": "O31rB96bOi+UT32HUjg5G8GlUV+fKsVHdsk7wVC0dv8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Logic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Logic.html",
+          "hash": "GReu8cB6aOgZ5DNyw92Z7XJKzzt/tCdTvMDsUQIEdXc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.MachineCharacteristics.MachineCharacteristicsDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.MachineCharacteristics.MachineCharacteristicsDto.html",
+          "hash": "U0S9Bsm2ef71Dmbqp91gZhR1O4zc64SZVPXU4Yy7IwY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.MachineCharacteristics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.MachineCharacteristics.html",
+          "hash": "cjS5nGbSJWA+L0tLdbFc/V1u0jUnxwN5ojGJH9Vid2g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Pdf.PdfResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Pdf.PdfResponse.html",
+          "hash": "oKl/Mxq7q1UGnnnXffyqQAKMT4mYa4G/nUoGjeewn+U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Pdf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Pdf.html",
+          "hash": "cW/latgRW3owpZs6wiuUU15oM/+Qw6FMVgyNCB+dFnk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.PdfInputData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.PdfInputData.html",
+          "hash": "GBqls9j4YIyt4S1N0pcGyOOSOGPEnNzG4OyVXFMSc0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.PickupData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.PickupData.html",
+          "hash": "SfNTTtEFsKUkhc0CmbqdMLZwxygQ2nsAOtl53yPtXTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.PickupStop.CreatePickupStopDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.PickupStop.CreatePickupStopDto.html",
+          "hash": "bBwWkp3tI6G7RC3Y9H9PlsrlH/E5TADPPCN0y/9h+f0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.PickupStop.PatchPickupStopDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.PickupStop.PatchPickupStopDto.html",
+          "hash": "BtgkBRKoy1746LHlCuGSq2gVfyiZOZ4aHiTwjVCOcds="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.PickupStop.PickupStopDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.PickupStop.PickupStopDto.html",
+          "hash": "2X4egx42tzZel8cZcQKqf/6x8x4Ocb6bcwDzUxmXAEQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.PickupStop.PickupStopSimpleDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.PickupStop.PickupStopSimpleDto.html",
+          "hash": "5xdMhbo/AszVhygTmohdU7aUUZy0U6D5QruD8UrcLUk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.PickupStop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.PickupStop.html",
+          "hash": "kK1ucOVNt9wZwi8SiOJMohfjw7qqNbvTYUhXrrNb4iE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Prepayment.PrepaymentDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Prepayment.PrepaymentDto.html",
+          "hash": "LCif/pTCW9f0gGqsM/98xcoo+MWmmTiBws99KFkKMJs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Prepayment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Prepayment.html",
+          "hash": "nYrxvX7uoSU1V2Lm4O5dureL6dj/9phCG8NTF1Dy68s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.PriceList.PriceListDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.PriceList.PriceListDto.html",
+          "hash": "Fd/+Z56rW0puIqHDDX6q0WDFloI0FUIEChMc3pN5bfE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.PriceList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.PriceList.html",
+          "hash": "xVJiMJLa7JJUveRhcsRxHtKDifWoix0XUKvjLwUnXpQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.RouteString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.RouteString.html",
+          "hash": "70IiepCsCYFzx+l4M6Qfx1g/cwDRbMBpxSe3DXxpmQQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Scenario.ScenarioDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Scenario.ScenarioDto.html",
+          "hash": "SVGB0cf4XSfoEETL4Qj2rqrw0u72VxBLdA4hW0TE4ro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Scenario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Scenario.html",
+          "hash": "RMet+apjxFqIT/p8ewnGuEU0BQ1R8J9G4BfHOBWPDdw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Segment.Segment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Segment.Segment.html",
+          "hash": "dGTywofX1GUXSMrsrLPAtVawFeW/KS48TbDV1h2q5Xg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Segment.SegmentPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Segment.SegmentPlus.html",
+          "hash": "73NE9bWaBhEgcs6SThyERBMRDS7ILPJhrx1/h4Kd90k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.Segment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.Segment.html",
+          "hash": "zL8FCdQt7/E4yIFkh0S1oOQMN7Zvo+K1DqlI9qw3C28="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.SpConditions.SpecialConditionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.SpConditions.SpecialConditionDto.html",
+          "hash": "TUzS1NLLPKULN3ye0VYw8RRnfvb7QFquU9DhVcfqGAE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.SpConditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.SpConditions.html",
+          "hash": "jO1glfgRLkHNCn+z1nXrzLKZQuhhZI3wpsL6GfG/wYs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.SpecialRateDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.SpecialRateDto.html",
+          "hash": "aI7xexlVJ116tlsFEIZT35I0v/Oq6QGTbph6tnF7Iaw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.TaskResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.TaskResult.html",
+          "hash": "mhqIZrRkXRxBrcLrNT2bMdUBFj2re5YxiCi+JhzWexY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.TruckDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.TruckDetails.html",
+          "hash": "lX32m4c298Ro13p959+PHwA6hgxz7ifcxskFm6Msv4g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.User.UserClaims.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.User.UserClaims.html",
+          "hash": "esSZyA0F3HUC985GvzBI0o59dz36d8kt88sPZld+Zyc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.User.UserDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.User.UserDto.html",
+          "hash": "YljkJGpZcgSdPeYL/kZcUZjY56/sNdjJbryz44dgqVk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.User.html",
+          "hash": "HpG3mvy2C2vwpchIKq6gBXwLwy8F246YXDIeLGyhcdA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.UserQueuer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.UserQueuer.html",
+          "hash": "+j2BT6dNVxDw1QsJz8tm3GvpCHLdRyp8nK1r+CDqafk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.ValueManagement.ValueManagementDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.ValueManagement.ValueManagementDto.html",
+          "hash": "iRcjzrqzrKKiB4k38bihIpkhWC04UKYdQR6dBNYBdXk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.ValueManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.ValueManagement.html",
+          "hash": "+cQWuJry4upwoEr7ZQKoELPJzXKx9hzQRz/BHVtaPP0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.WalkerResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.WalkerResponse.html",
+          "hash": "Ntt/47tcBbjdc13Iq3BU7sEETbEyU/ICS18wfRWvsbU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Models.html",
+          "hash": "VdMHh3T0j++Rvuys38LQRlPz/nReWpohoyuFoOQ9ask="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.RateChangers.NotTodayRateChanger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.RateChangers.NotTodayRateChanger.html",
+          "hash": "ZDe5X7ycZp7WNSpv7ZFrpF/woshLsKtaBRUizDgRzhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.RateChangers.NulifyRateChanger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.RateChangers.NulifyRateChanger.html",
+          "hash": "cE9OOuiTQ0REWqCc/+Pnozkg4ds5mtbdw8Kb1v6ZnyY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.RateChangers.RateChanger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.RateChangers.RateChanger.html",
+          "hash": "gUE5vv63jocK3vel4a0tOBkNGdi1Cpcb8PtWKBE85+E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.RateChangers.SimpleRateChanger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.RateChangers.SimpleRateChanger.html",
+          "hash": "pEN88uIHRt1dWzv0jATibgCYztETOFmCXvjyyRMaBSM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.RateChangers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.RateChangers.html",
+          "hash": "PF7gm8VNqZRb5B8LmDrZLU2xCA0tdC7hvTvolM2b100="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Responses.SimpleResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Responses.SimpleResponse.html",
+          "hash": "vaWBBsEhGg3wW5i4mcR3SzJmMqCvcqGfzcWjDIh2Fac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Direxxt_Shared.Responses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Direxxt_Shared.Responses.html",
+          "hash": "v06OJzeyGKYNcdhippk1W8LmRAz54GVhUbRXHjF0iqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "mnrh7SJiy8a8ZOfbz+DR+YyaQwub7HTKOF9E+bfNNKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "/9NXPH4BjPKg096ES09G+5F3JjbyYC0venafq+pUnT4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/auth.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/auth.html",
+          "hash": "MZkayynLkGlbgx3Qf9sSKEpn9WCPbyJJj68FWiVdaDA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/integrationInfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/integrationInfo.html",
+          "hash": "kXsSozZR49ZwmpSMZxs3Y8a1yjC20RZis1exdQfAiDQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "tvA8NKjzPHRXFmdKj54nvDemPJPD0rDo4/NpG+EPj+U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "S2F+RocwbAoyJ+uHP/1ai2k+9qQolABROk6C5Bwfxsc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "yYJj0VvH9d5spxUQEkw4AZ1fDFaFOpJDI9rEWg96SG8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 112,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
